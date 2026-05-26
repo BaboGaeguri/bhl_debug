@@ -4,3 +4,6 @@
 [submodule "docs/Recoil-Motor-Controller-BESC"]
 	path = docs/Recoil-Motor-Controller-BESC
 	url = https://github.com/T-K-233/Recoil-Motor-Controller-BESC.git
+[submodule "docs/hardware_manuals/canable"]
+	path = docs/hardware_manuals/canable
+	url = https://github.com/makerbase-mks/CANable-MKS.git
