@@ -7,3 +7,6 @@
 [submodule "docs/hardware_manuals/canable"]
 	path = docs/hardware_manuals/canable
 	url = https://github.com/makerbase-mks/CANable-MKS.git
+[submodule "docs/SteamVR-Bridge"]
+	path = docs/SteamVR-Bridge
+	url = https://github.com/ucb-bar/SteamVR-Bridge.git
