@@ -1,3 +1,6 @@
 [submodule "Berkeley-Humanoid-Lite"]
 	path = docs/Berkeley-Humanoid-Lite
 	url = https://github.com/HybridRobotics/Berkeley-Humanoid-Lite.git
+[submodule "docs/Recoil-Motor-Controller-BESC"]
+	path = docs/Recoil-Motor-Controller-BESC
+	url = https://github.com/T-K-233/Recoil-Motor-Controller-BESC.git
