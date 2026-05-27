@@ -24,6 +24,7 @@ Use these when checking for content newer than the 2026-05-27 mirror snapshot.
 
 ## Conventions
 
+- **Never modify anything under `docs/`.** Everything in `docs/` is upstream-pinned (submodules, vendor PDFs, gitbook mirror, paper) and is treated as read-only reference material. Do not `Edit`, `Write`, or `rm` files there, and do not run formatters, linters, or codemods that would touch them. If a fix is genuinely needed in upstream code, it becomes a PR against the upstream repo — not a local edit here.
 - **Answering user questions: search `docs/` first.** When the user asks something and you are not certain of the answer, first explore the `docs/` tree (submodule code, gitbook mirror, paper, vendor manuals) for the answer. Answer from what you find there. If nothing in `docs/` covers it, **ask the user for permission before running `WebSearch`** — do not silently fall back to the web.
 - **Default to local content first.** The local mirror + submodules cover all five officially-listed BHL repos. Reach for `WebSearch` only when the MCP and local files don't have what you need, and only after the user authorizes it per the rule above.
 - **Nested submodule URLs are SSH upstream**, overridden to HTTPS in local `.git/config`. Do not edit upstream `.gitmodules` files to "fix" this — keep the override local so the submodule working trees stay clean.
