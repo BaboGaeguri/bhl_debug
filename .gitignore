@@ -1,1 +1,31 @@
+# Local environment / secrets
 .env*
+
+# Python venvs (uv, pip, poetry, conda)
+.venv*
+venv/
+env/
+
+# Personal Claude state (per-machine permission cache)
+.claude/settings.local.json
+
+# Python build / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor swap / backup
+*.swp
+*~
+.idea/
+
+# Large local installers under docs/stm32cubeide (out-of-band, never commit)
+docs/stm32cubeide/*.sh
+docs/stm32cubeide/*.zip
